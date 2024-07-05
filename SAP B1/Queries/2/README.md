@@ -1,7 +1,5 @@
 #TOPIC:
-Detailed Sales Analysis
+Sales Orders and Deliveries/Invoices based on Sales Order in given time period
 
 #INPUTS:
-1-) Post Dates Range
-2-) Business Partner Code: User might specify displaying which BP's sales analysis
-3-) Group Code: User might specify displaying which item groups
+1-) Post Dates Range: User might specify displaying sales orders and deliveries based on them in a given time period.
