@@ -1,0 +1,7 @@
+SELECT T0.SlpCode, T0.SlpName, SUM(T1.DocTotal) AS TotalSales
+FROM OSLP T0
+INNER JOIN OINV T1 ON T0.SlpCode = T1.SlpCode
+WHERE T1.DocDate BETWEEN '2024-01-01' AND '2024-06-30'
+GROUP BY T0.SlpCode, T0.SlpName
+ORDER BY TotalSales DESC
+
